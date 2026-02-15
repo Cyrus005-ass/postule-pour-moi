@@ -1,0 +1,17 @@
+# Environnement
+.env
+vendor/
+node_modules/
+
+# Logs & temporaires
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Uploads sensibles
+uploads/*
+!uploads/.gitkeep
+
+# Bases de données locales
+*.sql.bak
