@@ -47,19 +47,3 @@ Ajoute une licence (recommandé pour les projets open)
 Crée un fichier LICENSE (MIT est simple et courant) :Bashtouch LICENSEColle dedans (exemple MIT) :textMIT License
 
 Copyright (c) 2026 Jeunes Ambitieux
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-(tu peux copier le texte complet depuis https://choosealicense.com/licenses/mit/)
-Commit les fichiers .env.example (pas le vrai .env !)Crée .env.example avec les variables vides :textDB_HOST=localhost
-DB_NAME=
-DB_USER=
-DB_PASS=
-
-APP_URL=http://localhost/postule-pour-moi
-APP_ENV=development→ Commit ça, jamais le vrai .env
-Premier vrai commit utile
-Une fois que tu auras config/database.php qui marche + peut-être login.php, fais :Bashgit add .
-git commit -m "feat: connexion PDO + test database + README amélioré"
-git push origin main
-
-Question pour avancer ensemble
