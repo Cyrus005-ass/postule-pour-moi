@@ -47,3 +47,4 @@ Ajoute une licence (recommandé pour les projets open)
 Crée un fichier LICENSE (MIT est simple et courant) :Bashtouch LICENSEColle dedans (exemple MIT) :textMIT License
 
 Copyright (c) 2026 Jeunes Ambitieux
+[Lire le document complet](./docs/CODE_STANDARDS.md)
